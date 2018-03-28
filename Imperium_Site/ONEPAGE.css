@@ -22,10 +22,26 @@ body section a {
 
 .nav 	{
 	position: absolute;
-	top: 350px;
+	top: 375px;
 }
 
 ul	{
 	list-style-type: none;
 	float: left;
+}
+
+.navright	{
+	margin-left: 470px;
+}
+
+.arrow	{
+	width: 0px;
+	height: 0px;
+	border-top: 30px solid white;
+	border-right: 30px solid transparent;
+	border-left: 30px solid transparent;
+	margin-left: 675px;
+	top: 900px;
+	position: absolute;
+	text-shadow: 0 0 20px black;
 }
