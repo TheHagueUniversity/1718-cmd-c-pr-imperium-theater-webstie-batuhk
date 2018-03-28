@@ -1,0 +1,31 @@
+body		{
+	margin: 0;
+	padding: 0;
+}
+
+.center	{
+	position: absolute;
+	width: 550px;
+	height: 230px;
+	top: 70px;
+	margin-left: 430px;
+}
+
+body section a {
+	font-family: adonide-bold;
+	text-decoration: none;
+	font-size: 70px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	float: left;
+}
+
+.nav 	{
+	position: absolute;
+	top: 350px;
+}
+
+ul	{
+	list-style-type: none;
+	float: left;
+}
