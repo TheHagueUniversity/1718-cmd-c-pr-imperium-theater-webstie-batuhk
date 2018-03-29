@@ -1,3 +1,4 @@
+/* REVIEW: Gebruik comments om je CSS te ordenen  */
 body		{
 	margin: 0;
 	padding: 0;
@@ -12,6 +13,7 @@ body		{
 }
 
 body section a {
+	/* REVIEW: body is hier overbodig, voegt niks toe */
 	font-family: adonide-bold;
 	text-decoration: none;
 	font-size: 70px;
