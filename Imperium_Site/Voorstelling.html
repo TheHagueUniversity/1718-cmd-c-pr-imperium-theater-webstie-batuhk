@@ -7,14 +7,16 @@
 <body>
 	<!-- deze div is bedoeld als alle informatie die speelt rondom de voorstelling -->
 	<div id="text" >
-		<h1>Voorstelling</h1>		
+		<!-- REVIEW: html5? section, main? -->
+		<h1>Voorstelling</h1>
 		<a href="../../Imperium_Site/Home.html"><img class="backlogo" src="pics/IMP_LOGO.svg"></a>
 		<img class="voorstellingfoto" src="pics/VRST.jpg" border="1">
+		<!-- REVIEW: alt is verplicht bij img, border is styling en moet in CSS -->
 
 		<h2>Over iedereen die er niet is</h1>
 		<p class="uppertext">Midden in de woestijn belandt een vreemdeling in het huis van Anton, Anne, Daniel en Daphne. Ze zeggen robots te zijn. Robots hebben namelijk geen gevoel. Ze hoeven niet 	te slapen, niet te eten en niet te huilen. Het enige wat robots kapot kan maken is water – en het regent al 31 dagen.</p>
 
-		<p class="lowertext">Voor Toneelgroep Imperium maakte regisseur Laura Liefting een ontroerende en poëtische voorstelling over het onvermogen om te gaan met verdriet en verlies. Met haar 
+		<p class="lowertext">Voor Toneelgroep Imperium maakte regisseur Laura Liefting een ontroerende en poëtische voorstelling over het onvermogen om te gaan met verdriet en verlies. Met haar
 		   fantasierijke theaterbeelden en frisse spelregie creëert Laura omgevingen waar van alles kan gebeuren. Dat deed zij eerder voor ons in  Is there life on Mars? en De dochter van de Boevenkoning. En nu weer.</p>
 
 		<p class="random1">Regie: Tekst: Spel: Speeldata: Aanvang: Locatie: Prijs:</p>
@@ -22,9 +24,12 @@
 	</div>
 	<!-- deze div is bedoeld als form en dient voor het invullen de gegevens -->
 	<div id="invulgegevens">
+		<!-- REVIEW: lijkt me een mooie section -->
 		<h2>Reserveren</h2>
 		<form class="form">
+			<!-- REVIEW: form heeft verplichte attributen -->
 			Voornaam </br>
+			<!-- REVIEW: labels? -->
 			<input type="text" name="firstname"> </br> <br>
 			Achternaam <br>
 			<input type="text" name="lastname"> </br> <br>
@@ -40,6 +45,7 @@
 				<option value="abnamro">ABN Amro</option>
 				<option value="ing">ING</option>
 			</select>
+			<!-- REVIEW: sluit de form niet af voordat alle elementen erin zitten -->
 		</form>
 	</div>
 	<!-- deze div is bedoeld voor het kiezen van de stoelen -->
@@ -53,6 +59,7 @@
 	</div>
 	<!-- footer -->
 	<section class="footer">
+		<!-- REVIEW: section class=footer moet toch gewoon het footer element zijn? -->
 		<div class="footerhead">
 			<ul class="info">
 				<h3>Imperium Theater</h3>
