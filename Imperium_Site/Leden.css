@@ -1,0 +1,214 @@
+body		{
+	margin: 0;
+	padding: 0;
+	background-image: url("pics/AG_BG.svg");
+	height: 900px;
+	background-size: cover;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.backlogo	{
+	width: 380px;
+	height: 161px;
+	margin-top: 75px;
+}
+
+h1	{
+	font-family: adonide-bold;
+	text-decoration: none;
+	font-size: 70px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	float: right;
+	margin-top: 120px;
+	margin-right: 50px;
+}
+
+h3	{
+	margin-left: 93px;
+	font-family: adonide-medium;
+	text-decoration: none;
+	font-size: 24px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+}
+
+.image 	{
+	display: inline;
+	width: 300px;
+	box-shadow: 5px 5px 5px black;
+	border: 1px solid white;
+	margin-left: 120px;
+	margin-top: 120px;
+}
+
+.rectangle1	{
+	margin-left: 120px;
+	margin-top: -5px;
+	position: absolute;
+	border: none;
+	width: 300px;
+	height: 50px;
+	background-color: rgba(128, 0, 36, 0.5);
+	border: 1px solid white;
+	box-shadow: 5px 5px 5px black;
+}
+
+.rectangle2	{
+	margin-left: 546px;
+	margin-top: -5px;
+	position: absolute;
+	border: none;
+	width: 300px;
+	height: 50px;
+	background-color: rgba(128, 0, 36, 0.5);
+	border: 1px solid white;
+	box-shadow: 5px 5px 5px black;
+}
+
+.rectangle3	{
+	margin-left: 972px;
+	margin-top: -5px;
+	position: absolute;
+	border: none;
+	width: 300px;
+	height: 50px;
+	background-color: rgba(128, 0, 36, 0.5);
+	border: 1px solid white;
+	box-shadow: 5px 5px 5px black;
+}
+
+.rectangle4	{
+	margin-left: 120px;
+	margin-top: -5px;
+	position: absolute;
+	border: none;
+	width: 300px;
+	height: 50px;
+	background-color: rgba(128, 0, 36, 0.5);
+	border: 1px solid white;
+	box-shadow: 5px 5px 5px black;
+}
+
+.rectangle5	{
+	margin-left: 546px;
+	margin-top: -5px;
+	position: absolute;
+	border: none;
+	width: 300px;
+	height: 50px;
+	background-color: rgba(128, 0, 36, 0.5);
+	border: 1px solid white;
+	box-shadow: 5px 5px 5px black;
+}
+
+.name {
+	float: left;
+	font-family: adonide-light;
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	margin-left: 10px;
+}
+
+.function	{
+	font-family: adonide-light;
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	margin-right: 10px;
+	float: right;
+}
+
+
+.footer	{
+	background-color: #800024;
+	height: 200px;
+	font-family: adonide-medium;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	padding-left:100px;
+}
+
+.info li	{
+	font-family: adonide-light;
+	font-size: 16px;
+	list-style-type: none;
+}
+
+.footernav	{
+	font-family: adonide-light;
+	font-size: 16px;
+	list-style-type: none;
+	padding-top: 96px;
+	float: left;
+	padding-left: 150px;
+}
+
+.footerhead	{
+	float: left;
+	padding-top: 20px;
+}
+
+.footerhead2	{
+	float: left;
+	padding-left: 250px;
+	padding-top: 20px;
+}
+
+.footerimg1	{
+	width: 40px;
+	float: left;
+}
+
+.footerimg2	{
+	width: 47px;
+	margin-left: 5px;
+	margin-top: -3px;
+	float: right;
+}
+
+.footerimg3	{
+	width: 120px;
+	padding-top: 57px;
+	padding-left: 170px;
+}
+
+.foothead 	{
+	margin-left: 0px;
+	padding-top: -30px;
+}
+
+a:hover	{
+	color: #51E0FF;
+}
+
+.hover a:hover	{
+	color: #51E0FF;
+}
+
+.hover	{
+	font-size: 16px;
+	font-family: adonide-light;
+}
+
+.finalnav	{
+	font-family: adonide-light;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+}
+
+.titel 	{
+	font-size: 24px;
+}
+
+.lidfoto	{
+	padding-bottom: 100px;
+}

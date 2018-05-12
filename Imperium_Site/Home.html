@@ -1,36 +1,127 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- REVIEW: wat moest er nog meer in de head staan? -->
 	<title>Imperium Theater</title>
-	<link rel="stylesheet" type="text/css" href="ONEPAGE.css">
+	<link rel="stylesheet" type="text/css" href="Home.css">
 </head>
 <body>
-	<section class="home">
-		<img id="homebg" src="pics/HOME_BG.svg">
-		<!-- REVIEW: background klinkt als styling en moet dus in de css -->
+	<!-- Dit element zorgt er voor dat je terug naar boven kan gaan zonder te scrollen -->
+	<div class="boven" border="1">
+			<a href=""><p class="naarboven">Naar </br> Boven</p></a>							
+	</div>
+	<!-- deze section is puur voor navigatie -->
+	<section class="home" id="home">
 		<img class="center" src="pics/IMP_LOGO.svg">
-		<!-- REVIEW: logo, moet dit niet klikbaar zijn #escapehatch -->
-		<div class="nav">
-			<!-- REVIEW: Was er niet een heel goed semantisch html5 element voor de navigatie? -->
-			<ul>
-				<li id="test"><a href="">Agenda</a></li>
-				<li><a href="">Fotoboek</a></li>
-				<li><a href="">Nieuw Talent</a></li>
-				<li><a href="">Leden</a></li>
-			</ul>
-
+		<nav>
 			<ul class="navright">
 				<li><a href="">Huren</a></li>
 				<li><a href="">Contact</a></li>
 				<li><a href="">Over ons</a></li>
 				<li><a href="">Aanmelden</a></li>
 			</ul>
-		</div>
-		<div class="arrow">
+		</nav>
 
+		<nav>
+			<ul>
+				<li><a href="#agenda">Agenda</a></li>
+				<li><a href="#fotoboek">Fotoboek</a></li>
+				<li><a href="#nt">Nieuw Talent</a></li>
+				<li><a href="#leden">Leden</a></li>
+			</ul>
+		</nav>
+		<div class="arrow" />
+	</section>
+	<!-- deze section is voor de agenda en om een voorstelling aan te klikken -->
+	<section class="agenda" id="agenda">
+		<div>
+			<h1>Agenda</h1>
+			<a href="#home"><img class="backlogo" src="pics/IMP_LOGO.svg"></a>
+		</div>
+		<div class="calendar">
+			<div class="mrt8"><a href="Voorstelling.html" class="date">8 <br><p class="mrt">MRT.</p></a></div>
+			<div class="mrt9"><a href="Voorstelling.html" class="date">9 <br><p class="mrt">MRT.</p></a></div>
+			<div class="mrt10"><a href="Voorstelling.html" class="date">10 <br><p class="mrt">MRT.</p></a></div>
+			<div class="mrt11"><a href="Voorstelling.html" class="date">11 <br><p class="mrt">MRT.</p></a></div>
+			<div class="mrt12"><a href="Voorstelling.html" class="date">12 <br><p class="mrt">MRT.</p></a></div>
+			<div class="mrt13"><a href="Voorstelling.html" class="date">13 <br><p class="mrt">MRT.</p></a></div>
+			<div class="plus"><a class="date">+</a></div>
+		</div>
+		<div>
+			<img src="pics/VRST.jpg" class="VRSTJPG">
+		</div>
+	</section>
+	<!-- deze section is voor het door scrollen van de de albums of voor het bezoeken van de album pagina -->
+	<section class="fotoboek" id="fotoboek">
+		<h1>Fotoboek</h1>
+		<a href="#home"><img class="backlogo" src="pics/IMP_LOGO.svg"></a>
+		<div>
+			<img class="varifoto1" src="pics/ZINS.jpg" border="1">
+			<div class="rectangle1"><p><a href="fotoboek.html#zins" class="name">Zinsbegoocheling</a></p></div>
+			<div class="arrowleft"></div>
+			<img class="varifoto2" src="pics/BIEST.jpg" border="1">
+			<div class="rectangle2"><p><a href="fotoboek.html#biest" class="name">Biest</a></p></div>
+			<div class="arrowright"></div>
+		</div>
+		<div class="rectangle" border="1">
+			<p><a href="Fotoboek.html" class="hover">Alle Albums</a></p>
+		</div>
+	</section>
+	<!-- deze section is voor het doorzoeken van je neefje of nichtje als ze nieuw zijn aangemeld -->
+	<section class="nieuwtalent" id="nt">
+		<h1>Nieuw Talent</h1>
+		<a href="#home"><img class="backlogo" src="pics/IMP_LOGO.svg"></a>
+		<div>
+			<img class="varifoto1" src="pics/SAMIRA.jpg" border="1">
+			<div class="rectangle1"><p class="name">Samira</p> <p class="function">Actrice</p></div>
+			<div class="arrowleft"></div>
+			<img class="varifoto3" src="pics/MAXIME.jpg" border="1">
+			<div class="rectangle2"><p class="name">Maxime</p> <p class="function">Actrice</p></div>
+			<div class="arrowright"></div>
+		</div>
+	</section>
+	<!-- deze section is bedoeld om de leden de vinden -->
+	<section class="leden" id="leden">
+		<h1>Leden</h1>
+		<a href="#home"><img class="backlogo" src="pics/IMP_LOGO.svg"></a>
+		<div>
+			<img class="varifoto1" src="pics/GERARD.jpg" border="1">
+			<div class="rectangle1"><p class="name">Gerard</p> <p class="function">Organisator</p></div>
+			<div class="arrowleft"></div>
+			<img class="varifoto4" src="pics/PIM.jpg" border="1">
+			<div class="rectangle2"><p class="name">Pim</p> <p class="function">Promotie</p></div>
+			<div class="arrowright"></div>
+		</div>
+		<div class="rectangle" border="1">
+			<p><a href="Leden.html" class="hover">Alle Leden</a></p>
+		</div>
+	</section>
+	<!-- deze section is bedoeld als footer -->
+	<section class="footer">
+		<div class="footerhead">
+			<ul class="info">
+				<h3>Imperium Theater</h3>
+				<li>Oude Vest 33e</li>
+				<li>2312 XR Leiden</li>
+				<li>071 5141035</li>
+			</ul>
+		</div>
+		</div>
+		<div class="footernav">
+			<li><a href="" class="finalnav">Route</li></a>
+			<li><a href="" class="finalnav">Contact</li></a>
+			<li><a href="" class="finalnav">Nieuwbrief</li></a>
+		</div>
+			<div class="footerhead2">
+			<ul class="info">
+				<h3>Volg ons!</h3>
+				<img src="pics/FB.png" class="footerimg1">
+				<img src="pics/INSTA.png" class="footerimg2">
+			</ul>
+		</div>
+		</div>
+		<div class="footernav2">
+			<a href="#home"><img src="pics/IMP_LOGO.svg" class="footerimg3"></a>
 		</div>
 	</section>
 </body>
 </html>
-<!-- REVIEW: Vergeet geen comments te gebruiken! -->

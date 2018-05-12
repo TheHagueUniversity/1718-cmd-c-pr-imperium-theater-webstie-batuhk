@@ -1,0 +1,225 @@
+body		{
+	margin: 0;
+	padding: 0;
+	background-image: url("pics/AG_BG.svg");
+	height: 900px;
+	background-size: cover;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.backlogo	{
+	width: 380px;
+	height: 161px;
+	margin-top: 75px;
+}
+
+h1	{
+	font-family: adonide-bold;
+	text-decoration: none;
+	font-size: 70px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	float: right;
+	margin-top: 120px;
+	margin-right: 50px;
+}
+
+.voorstellingfoto	{
+	width: 1200px;
+	box-shadow: 5px 5px 5px black;
+	margin-left: 120px;
+	border: 1px solid white;
+}
+
+h2	{
+	font-family: adonide-bold;
+	text-decoration: none;
+	font-size: 48px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	margin-top: 0px;
+	margin-left: 120px;
+}
+
+.uppertext	{
+	font-family: adonide-regular;
+	font-size: 24px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	margin-top: -45px;
+	margin-left: 120px;
+	max-width: 1200px;
+}
+
+.lowertext	{
+	font-family: adonide-light;
+	font-size: 24px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	margin-top: 0px;
+	margin-left: 120px;
+	max-width: 1200px;
+}
+
+.random1	{
+	font-family: adonide-regular;
+	font-size: 24px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	margin-top: 0px;
+	margin-left: 120px;
+	max-width: 100px;
+	float: left;
+	line-height: 3;
+}
+
+.random2	{
+	font-family: adonide-light;
+	font-size: 24px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	margin-top: 0px;
+	margin-left: 120px;
+	max-width: 1200px;
+	float: left;
+	line-height: 3;
+}
+
+form	{
+	font-family: adonide-light;
+	font-size: 24px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	margin-top: -20px;
+	margin-left: 120px;
+}
+
+input[type=text]{
+	height: 20px;
+	background-color: white;
+	font-family: adonide-light;
+}
+
+input[type=number]	{
+	background-color: white;
+	font-family: adonide-light;
+	height: 20px;
+}
+
+.email	{
+	width: 300px;
+}
+
+.seats	{
+	width: 500px;
+	float: right;
+	margin-top: -500px;
+	margin-right: 200px;
+	box-shadow: 5px 5px 5px black;
+	border: 1px solid white;
+}
+
+.seatchoice	{
+	float: right;
+	margin-right: 200px;
+	margin-top: -230px;
+}
+
+.seatamount	{
+	width: 30px;
+}
+
+.reserveren	{
+	float: right;
+	margin-left: 220px;
+	height: 60px;
+}
+
+.form	{
+	margin-bottom: 100px;
+}
+
+.footer	{
+	background-color: #800024;
+	height: 200px;
+	font-family: adonide-medium;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	padding-left:100px;
+}
+
+.info li	{
+	font-family: adonide-light;
+	font-size: 16px;
+	list-style-type: none;
+}
+
+.footernav	{
+	font-family: adonide-light;
+	font-size: 16px;
+	list-style-type: none;
+	padding-top: 96px;
+	float: left;
+	padding-left: 150px;
+}
+
+.footernav2	{
+	font-family: adonide-light;
+	font-size: 16px;
+	list-style-type: none;
+	padding-top: 96px;
+	float: left;
+	padding-left: 200px;
+}
+
+.footerhead	{
+	padding-top: 20px;
+	float: left;
+}
+
+.footerhead2	{
+	float: left;
+	padding-left: 250px;
+	padding-top: 20px;
+}
+
+.footerimg1	{
+	width: 40px;
+	float: left;
+}
+
+.footerimg2	{
+	width: 47px;
+	margin-left: 5px;
+	margin-top: -3px;
+	float: right;
+}
+
+.footerimg3	{
+	width: 120px;
+	margin-top: -40px;
+}
+
+a:hover	{
+	color: #51E0FF;
+}
+
+.hover a:hover	{
+	color: #51E0FF;
+}
+
+.hover	{
+	font-size: 16px;
+	font-family: adonide-light;
+}
+
+.finalnav	{
+	font-family: adonide-light;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+}
